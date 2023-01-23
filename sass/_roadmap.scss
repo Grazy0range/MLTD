@@ -1,0 +1,58 @@
+.roadmap {
+  margin-top: 27px;
+  overflow-x: hidden;
+  .container {
+    max-width: 100%;
+    .roadmap__head {
+      font-weight: 800;
+      font-size: 28px;
+      line-height: 114.2%;
+      text-align: center;
+      letter-spacing: -0.5px;
+      color: #ffffff;
+      margin-bottom: 30px;
+    }
+  }
+  .roadmap__wrap {
+    position: relative;
+    .roadmap__bg {
+      width: 106%;
+      margin: 0 auto;
+      transform: translateX(-10px);
+      z-index: -1;
+    }
+    .roadmap__desk {
+      display: none;
+    }
+    .pin {
+      position: absolute;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 31px;
+      text-align: center;
+      letter-spacing: 0.15px;
+      color: #ffffff;
+      z-index: 10000;
+    }
+    .pin1 {
+      top: 124px;
+      left: 97px;
+    }
+    .pin2 {
+      top: 512px;
+      right: 95px;
+    }
+    .pin3 {
+      top: 915px;
+      left: 99px;
+    }
+    .pin4 {
+      top: 1385px;
+      right: 91px;
+    }
+    .pin5 {
+      top: 1699px;
+      left: 98px;
+    }
+  }
+}
