@@ -1,6 +1,6 @@
 .roadmap {
   margin-top: 27px;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   .container {
     max-width: 100%;
     .roadmap__head {
@@ -15,6 +15,7 @@
   }
   .roadmap__wrap {
     position: relative;
+    height: 100%;
     .roadmap__bg {
       width: 106%;
       margin: 0 auto;

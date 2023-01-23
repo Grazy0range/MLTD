@@ -3,6 +3,18 @@
   padding-top: 7px;
   background: rgba(50, 55, 81, 0.6);
   padding-bottom: 30px;
+  position: relative;
+
+  .footer__coins {
+    position: absolute;
+    top: -160px;
+    right: 0;
+    overflow-x: hidden;
+    .coins {
+      width: 345px;
+      transform: translateX(62px);
+    }
+  }
   .container {
     .footer__info {
       padding-bottom: 22px;
@@ -118,6 +130,15 @@
         text-align: center;
         letter-spacing: 0.15px;
         color: #44496d;
+        text-decoration: none;
+      }
+      .slash {
+        &::before {
+          content: "|";
+          margin-right: 11px;
+          font-size: 19px;
+          cursor: default;
+        }
       }
     }
   }

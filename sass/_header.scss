@@ -1,7 +1,7 @@
 .header {
   padding-top: 56px;
   z-index: 1;
-  overflow-x: hidden;
+
   .container {
     .header__desk {
       display: none;
@@ -140,4 +140,16 @@
       }
     }
   }
+}
+
+.sheensay_fixed {
+  position: fixed !important;
+  top: 0 !important;
+  padding-top: 56px;
+  background: rgba(32, 36, 55, 0.7);
+  backdrop-filter: blur(3px);
+  z-index: 9999999999999999999999999999999999999999999999999;
+  width: 100%;
+  height: 113px;
+  box-sizing: border-box;
 }
